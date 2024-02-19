@@ -1,0 +1,16 @@
+.HomePage {
+    place-items: center;
+    align-content: center;
+    display: grid;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Block {
+    place-items: center;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    margin: 100%;
+}
