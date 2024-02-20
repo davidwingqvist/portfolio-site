@@ -1,29 +1,20 @@
 import './Block.css'
+import './NavigationBar.css'
 
 function Block()
 {
     return (
         <div className='HomePage'>
+            <ul className='NavBar'>
+                <li className='NavItem'>Home</li>
+                <li className='NavItem'>Projects</li>
+                <li className='NavItem'>Contact</li>
+                <text className='NavText'>ゲーム・WEB・システム開発向け</text>
+            </ul>
             <table className='Block'>
-                <div>
-                    <text>One</text>
-                    <text>Two</text>
+                <div className='Main'>
+                    <text>David's Portfolio Website</text>
                 </div>
-                <text>Another!</text>
-                <text>Test!</text>
-                <text>Test!</text>
-            </table>
-            <table className='Block'>
-                <text>Test!</text>
-                <text>Another!</text>
-                <text>Test!</text>
-                <text>Test!</text>
-            </table>
-            <table className='Block'>
-                <text>Test!</text>
-                <text>Another!</text>
-                <text>Test!</text>
-                <text>Test!</text>
             </table>
         </div>
     );
