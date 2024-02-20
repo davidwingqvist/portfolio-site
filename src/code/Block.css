@@ -15,10 +15,57 @@
     background-color: rgb(26, 26, 36);
 }
 
+
 .Main {
     color: wheat;
 }
 
 .AnimatedMainText {
     color: wheat;
+}
+
+/* Bottom part of the main page */
+
+.MainSender {
+    place-items: center;
+    display: grid;
+}
+
+.MainSenderButton {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    user-select: none;
+}
+
+.MainSenderButton:hover {
+    color: rgb(176, 151, 104);
+}
+
+.MainSenderButton:active {
+    color: rgb(77, 61, 31);
+}
+
+/* Logo Images */
+
+.logoImageBlock {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 10vh;
+    place-items: center;
+}
+
+.logoImage {
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+    opacity: 1;
+}
+
+.logoImage:hover {
+    opacity: 0.5;
+}
+
+.logoImage:active {
+    opacity: 0;
 }
