@@ -15,9 +15,9 @@ function MainPage ()
             transform: "translateX(0px)"},
         from: {opacity: 0,
             transform: "translateX(-100dvh)"},
-        delay: 200,
+        delay: 0,
         transform: "translateX(100%)",
-        config: {duration: 3000}
+        config: {duration: 2000}
     });
 
     const secondaryAnim = useSpring({
@@ -25,9 +25,9 @@ function MainPage ()
             transform: "translateX(0px)"},
         from: {opacity: 0,
             transform: "translateX(-100dvh)"},
-        delay: 400,
+        delay: 200,
         transform: "translateX(100%)",
-        config: {duration: 3000}
+        config: {duration: 2000}
     });
 
     const thirdAnim = useSpring({
@@ -35,9 +35,9 @@ function MainPage ()
             transform: "translateX(0px)"},
         from: {opacity: 0,
             transform: "translateX(-100dvh)"},
-        delay: 600,
+        delay: 400,
         transform: "translateX(100%)",
-        config: {duration: 3000}
+        config: {duration: 2000}
     });
 
     const logoBlockAnim = useSpring({
@@ -45,9 +45,9 @@ function MainPage ()
             transform: "translateY(0px)"},
         from: {opacity: 0,
             transform: "translateY(-100dvh)"},
-        delay: 100,
+        delay: 0,
         transform: "translateY(100%)",
-        config: {duration: 3000}
+        config: {duration: 2000}
     });
 
     return (
@@ -58,14 +58,15 @@ function MainPage ()
                 <h1>ゲーム開発を勉強し、WEBやシステムにも向け。</h1>
             </animated.div>
             <animated.div style={secondaryAnim}>
-                <h5>様々なプロジェクトを通じ、技能の知識を深めていくことを目標とし。</h5>
+                <h3>様々なプロジェクトを通じ、技能の知識を深めていくことを目標とし。</h3>
+                <text>プログラミングに熱心な気持ちを抱き、これからも頑張ります！</text>
             </animated.div>
         </div>
 
         <animated.div style={thirdAnim}>
             <div className='MainSender'>
                 <text className='AnimatedMainText'>さて、プロジェクトをご覧になりましょうか？</text>
-                <text className='MainSenderButton'><Link to='/Projects'>プロジェクトへ</Link></text>
+                <text className='MainSenderButton'><Link to='/portfolio-site/Projects'>プロジェクトへ</Link></text>
             </div>
         </animated.div>
 

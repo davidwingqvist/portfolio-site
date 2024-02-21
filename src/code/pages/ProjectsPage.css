@@ -1,0 +1,37 @@
+
+.ProjectsPage {
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.MainProjectsBlock {
+    place-content: center;
+    place-items: center;
+    display: grid;
+    width: 100dvw;
+    overflow: hidden;
+    background-color: rgb(26, 26, 36);
+    color: wheat;
+}
+
+.MainText {
+    margin-top: 5dvh;
+}
+
+.ShowCaseImage {
+    width: 80dvh;
+    height: 60dvh;
+}
+
+.ProjectsBlock {
+    place-items: center;
+    display: grid;
+    width: 100dvw;
+    height: 100dvh;
+    overflow: hidden;
+    background-color: rgb(26, 26, 36);
+    color: wheat;
+}
