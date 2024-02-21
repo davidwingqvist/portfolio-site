@@ -1,14 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import Block from './code/Block'
-
+import {
+  BrowserRouter as Router,
+} from "react-router-dom";
 
 function App() {
 
   return (
-    <div>
-      <Block></Block>
-    </div>
+      <Router>
+        <Block />
+      </Router>
   );
 }
 

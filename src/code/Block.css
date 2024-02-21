@@ -1,17 +1,19 @@
 .HomePage {
     place-items: center;
     align-content: center;
-    display: grid;
+    display: block;
     text-align: center;
-    width: 100vw;
-    height: 100vh;
+    width: 100dvw;
+    height: 100dvh;
+    overflow-y: hidden;
 }
 
 .Block {
     place-items: center;
     display: grid;
-    width: 100vw;
-    height: 95vh;
+    width: 100dvw;
+    height: 95dvh;
+    overflow: hidden;
     background-color: rgb(26, 26, 36);
 }
 
@@ -22,6 +24,8 @@
 
 .AnimatedMainText {
     color: wheat;
+    text-align: center;
+    user-select: none;
 }
 
 /* Bottom part of the main page */
@@ -57,9 +61,14 @@
 
 .logoImage {
     border-radius: 50%;
-    width: 10vh;
-    height: 10vh;
+    width: 10dvh;
+    height: 10dvh;
     opacity: 1;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .logoImage:hover {
@@ -68,4 +77,10 @@
 
 .logoImage:active {
     opacity: 0;
+}
+
+/* Link Components */
+
+a {
+    color: wheat;
 }

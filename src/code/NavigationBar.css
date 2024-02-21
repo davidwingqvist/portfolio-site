@@ -3,18 +3,22 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 5vh;
-    background-color: rgb(0, 0, 0);
+    width: 100dvw;
+    overflow: hidden;
+    height: 5dvh;
+    background-color: rgb(0, 0, 0, 1);
     color: wheat;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .NavItem {
     display: grid;
-    background-color: rgb(50, 28, 2);
+    background-color: rgb(50, 28, 2, 1);
     float: left;
-    width: 15vw;
-    height: 5vh;
+    width: 15dvw;
+    height: 5dvh;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -36,7 +40,7 @@
 
 
 .NavItem:hover {
-    background-color: rgb(84, 48, 3);
+    background-color: rgb(84, 48, 3, 1);
 }
 
 .NavItem:active {
