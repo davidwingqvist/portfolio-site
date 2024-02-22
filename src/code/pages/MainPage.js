@@ -54,12 +54,6 @@ function MainPage ()
 
     return (
         <div>
-            <Carousel>
-                <div>
-                    <text>Hello!</text>
-                    <text>Hello!</text>
-                </div>
-            </Carousel>
         <table className='Block'>
         <div className='AnimatedMainText'>
             <animated.div style={mainAnim}>

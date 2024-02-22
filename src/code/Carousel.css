@@ -4,4 +4,30 @@
     place-content: center;
     place-items: center;
     text-align: center;
+    background-color: rgb(26, 26, 36);
+    color: wheat;
+}
+
+.CarouselArrowLeft {
+    position: relative;
+    display: inline-block;
+    font-size: 10dvw;
+    left: 25dvw;
+    user-select: none;
+}
+
+.CarouselArrowRight {
+    position: relative;
+    display: inline-block;
+    font-size: xx-large;
+    right: 25dvw;
+    user-select: none;
+    font-size: 10dvw;
+}
+
+.CarouselSlide {
+    display:grid;
+    place-content: center;
+    place-items: center;
+    display: inline-block;
 }
