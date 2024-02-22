@@ -1,8 +1,3 @@
-
-.ProjectsPage {
-
-}
-
 ::-webkit-scrollbar {
     display: none;
 }
@@ -20,6 +15,8 @@
 
 .MainText {
     margin-top: 5dvh;
+    text-shadow: 1dvw 1dvh black;
+    user-select: none;
 }
 
 .ShowCaseImage {

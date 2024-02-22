@@ -22,9 +22,9 @@ function Carousel(props)
 
     return (
         <div className='CarouselBody'>
-            <div onClick={showNextSlide} className='CarouselArrowRight'>&larr;</div>
+            <div onClick={showNextSlide} className='CarouselArrowLeft'>&larr;</div>
             <div className='CarouselSlide'>{childrenArray[slideIndex]}</div>
-            <div onClick={showPrevSlide} className='CarouselArrowLeft'>&rarr;</div>
+            <div onClick={showPrevSlide} className='CarouselArrowRight'>&rarr;</div>
         </div>
     )
 }
