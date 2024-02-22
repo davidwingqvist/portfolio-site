@@ -8,6 +8,8 @@ import {
     Link,
 } from "react-router-dom";
 
+import Carousel from '../Carousel'
+
 function MainPage ()
 {
     const mainAnim = useSpring({
@@ -52,6 +54,12 @@ function MainPage ()
 
     return (
         <div>
+            <Carousel>
+                <div>
+                    <text>Hello!</text>
+                    <text>Hello!</text>
+                </div>
+            </Carousel>
         <table className='Block'>
         <div className='AnimatedMainText'>
             <animated.div style={mainAnim}>
@@ -71,8 +79,8 @@ function MainPage ()
         </animated.div>
 
         <animated.div style={logoBlockAnim} className={'logoImageBlock'}>
-            <a href='https://www.linkedin.com/in/david-wingqvist-228742271/'><img src={linkedInLogo} className='logoImage'></img></a>
-            <a href='https://github.com/davidwingqvist'><img src={githubLogo} className='logoImage'></img></a>
+            <a href='https://www.linkedin.com/in/david-wingqvist-228742271/' target='_blank' rel='noreferrer'><img src={linkedInLogo} className='logoImage'></img></a>
+            <a href='https://github.com/davidwingqvist' target='_blank' rel='noreferrer'><img src={githubLogo} className='logoImage'></img></a>
         </animated.div>
     </table>
     </div>

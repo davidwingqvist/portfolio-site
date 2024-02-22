@@ -1,0 +1,7 @@
+
+.CarouselBody {
+    width: 100dvw;
+    place-content: center;
+    place-items: center;
+    text-align: center;
+}

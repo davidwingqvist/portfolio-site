@@ -15,7 +15,7 @@ import {
 const Navi = () => {
     return (    
             <ul className='NavBar'>
-                <li className='NavItem'><Link to='/portfolio-site/Home'>Home</Link></li>
+                <li className='NavItem'><Link to='/portfolio-site/'>Home</Link></li>
                 <li className='NavItem'><Link to='/portfolio-site/Projects'>Projects</Link></li>
                 <li className='NavItem'>Contact</li>
                 <text className='NavText'>ゲーム・WEB・システム開発向け</text>
@@ -29,11 +29,11 @@ function Block()
         <>
         <Navi />
             <Routes>
-                <Route path="/portfolio-site/Home" element={<MainPage />}></Route>
+                <Route path="/portfolio-site/" element={<MainPage />}></Route>
                 <Route path="/portfolio-site/Projects" element={<ProjectsPage />}/>
                 <Route
                         path="*"
-                        element={<Navigate to="/portfolio-site/Home" replace={true} />}
+                        element={<Navigate to="/portfolio-site/" replace={true} />}
                 />
             </Routes>
         </>

@@ -10,6 +10,7 @@
 .MainProjectsBlock {
     place-content: center;
     place-items: center;
+    text-align: center;
     display: grid;
     width: 100dvw;
     overflow: hidden;
@@ -28,10 +29,12 @@
 
 .ProjectsBlock {
     place-items: center;
+    place-content: center;
     display: grid;
     width: 100dvw;
     height: 100dvh;
     overflow: hidden;
     background-color: rgb(26, 26, 36);
     color: wheat;
+    text-align: center;
 }
