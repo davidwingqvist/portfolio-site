@@ -11,12 +11,23 @@
     overflow: hidden;
     background-color: rgb(26, 26, 36);
     color: wheat;
+    text-shadow: 1dvw 1dvh black;
 }
 
 .MainText {
     margin-top: 5dvh;
-    text-shadow: 1dvw 1dvh black;
     user-select: none;
+}
+
+.HintDownText {
+    position: absolute;
+    margin-top: 20dvh;
+    margin-right: 5dvw;
+    width: 100dvw;
+    color: wheat;
+    text-align: end;
+    font-weight: bolder;
+    text-shadow: 1dvw 1dvh black;
 }
 
 .ShowCaseImage {
