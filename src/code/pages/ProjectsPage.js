@@ -9,6 +9,7 @@ import engineScreenShot from '../../textures/gameenginescreenshot1.PNG'
 import dentakuShot from '../../textures/dentaku_saito.PNG'
 import unityShot from '../../textures/unityProjectScreenshot.png'
 import portfolioShot from '../../textures/portfolio-site.PNG'
+import fourInARowShot from '../../textures/four_in_a_row.PNG'
 import Carousel, { CarouselSlide } from '../Carousel'
 
 
@@ -16,7 +17,7 @@ function ProjectsPage()
 {
     // preloadings the images?
     const images = [homehearthScreenShot, prodigiumScreenShot, budgetIsaacScreenShot, mortemScreenShot,
-        wildPixelsScreenShot, engineScreenShot, recsScreenShot, dentakuShot, unityShot, portfolioShot];
+        wildPixelsScreenShot, engineScreenShot, recsScreenShot, dentakuShot, unityShot, portfolioShot, fourInARowShot];
 
     return (
         <div className='ProjectsPage'>
@@ -61,6 +62,10 @@ function ProjectsPage()
                     <CarouselSlide>
                         <a href='https://github.com/davidwingqvist/portfolio-site' target='_blank' rel='noreferrer'><img src={images[9]} className='CarouselPicture'></img></a>
                         <h2>当ポートフォリオサイト</h2>
+                    </CarouselSlide>
+                    <CarouselSlide>
+                        <a href='https://github.com/davidwingqvist/four-in-a-row' target='_blank' rel='noreferrer'><img src={images[10]} className='CarouselPicture'></img></a>
+                        <h2>簡単なWebゲーム/未完成</h2>
                     </CarouselSlide>
                 </Carousel>
             </div>

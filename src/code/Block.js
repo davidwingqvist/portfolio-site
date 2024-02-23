@@ -18,7 +18,7 @@ const Navi = () => {
                 <li className='NavItem'><Link to='/portfolio-site/'>Home</Link></li>
                 <li className='NavItem'><Link to='/portfolio-site/Projects'>Projects</Link></li>
                 <li className='NavItem'>Contact</li>
-                <text className='NavText'>ゲーム・WEB・システム開発向け</text>
+                <text className='NavText'>David Wingqvist</text>
             </ul>
     );
 }
