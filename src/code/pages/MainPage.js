@@ -60,6 +60,7 @@ function MainPage ()
             <animated.div style={secondaryAnim}>
                 <h3>様々なプロジェクトを通じ、技能の知識を深めていくことを目標とし。</h3>
                 <text>プログラミングに熱心な気持ちを抱き、これからも頑張ります！</text>
+                <h1 className='ShiftColorText'>ゲーム・WEB・システム開発</h1>
             </animated.div>
         </div>
 

@@ -22,9 +22,10 @@ function ProjectsPage()
     return (
         <div className='ProjectsPage'>
             <text className='HintDownText'>下にもプロジェクト欄があります。</text>
+            <text className='SecondHintDownText'>下にもプロジェクト欄があります。</text>
             <div className='MainProjectsBlock'>
                 <h1 className='MainText'>主にゲームの開発に集中し、WEBやシステム開発にも向けて。</h1>
-                <h2>ゲーム/Game</h2>
+                <h2>ゲーム/Game[C++, C#]</h2>
                 <Carousel>
                     <CarouselSlide>
                         <a href='https://youtu.be/GrEWl8npL9Y?si=8TJqPfQM_RXs2Ukp' target='_blank' rel='noreferrer'><img src={images[0]} className='CarouselPicture'></img></a>
@@ -53,7 +54,7 @@ function ProjectsPage()
                 </Carousel>
             </div>
             <div className='ProjectsBlock'>
-                <h1 className='SecondaryText'>WEB</h1>
+                <h1 className='SecondaryText'>WEB[HTML, CSS, ReactJS(JavaScript)]</h1>
                 <Carousel>
                     <CarouselSlide>
                         <a href='https://davidwingqvist.github.io/Calculator-Website/' target='_blank' rel='noreferrer'><img src={images[7]} className='CarouselPicture'></img></a>
@@ -65,7 +66,7 @@ function ProjectsPage()
                     </CarouselSlide>
                     <CarouselSlide>
                         <a href='https://github.com/davidwingqvist/four-in-a-row' target='_blank' rel='noreferrer'><img src={images[10]} className='CarouselPicture'></img></a>
-                        <h2>簡単なWebゲーム/未完成</h2>
+                        <h2>簡単なWebゲーム</h2>
                     </CarouselSlide>
                 </Carousel>
             </div>
@@ -78,7 +79,7 @@ function ProjectsPage()
                     </CarouselSlide>
                     <CarouselSlide>
                         <a href='https://github.com/davidwingqvist/RECS' target='_blank' rel='noreferrer'><img src={images[6]} className='CarouselPicture'></img></a>
-                        <h2>データ指向型RECS</h2>
+                        <h2>データ指向型RECSデータ管理システム</h2>
                     </CarouselSlide>
                 </Carousel>
             </div>

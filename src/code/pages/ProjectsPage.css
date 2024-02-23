@@ -10,8 +10,8 @@
     width: 100dvw;
     overflow: hidden;
     background-color: rgb(26, 26, 36);
-    color: wheat;
-    text-shadow: 1dvw 1dvh black;
+    color: rgb(155, 106, 16);
+    text-shadow: 1dvw 1dvh  rgb(13, 13, 18);
 }
 
 .MainText {
@@ -20,14 +20,17 @@
 }
 
 .SecondaryText {
-    margin-top: 10dvh;
+    margin-top: 25dvh;
     user-select: none;
+    text-shadow: 1dvw 1dvh  rgb(13, 13, 18);
+    text-align: center;
 }
 
 .ThirdText {
     margin-top: 35dvh;
     user-select: none;
     text-align: center;
+    text-shadow: 1dvw 1dvh  rgb(13, 13, 18);
 }
 
 .HintDownText {
@@ -35,10 +38,21 @@
     margin-top: 20dvh;
     margin-right: 5dvw;
     width: 100dvw;
-    color: wheat;
+    color: rgb(155, 106, 16);
     text-align: end;
     font-weight: bolder;
-    text-shadow: 1dvw 1dvh black;
+    text-shadow: 1dvw 1dvh  rgb(13, 13, 18);
+}
+
+.SecondHintDownText {
+    position: absolute;
+    margin-top: 125dvh;
+    margin-right: 5dvw;
+    width: 100dvw;
+    color: rgb(155, 106, 16);
+    text-align: end;
+    font-weight: bolder;
+    text-shadow: 1dvw 1dvh  rgb(13, 13, 18);
 }
 
 .ShowCaseImage {
@@ -54,5 +68,5 @@
     height: 100dvh;
     overflow: hidden;
     background-color: rgb(26, 26, 36);
-    color: wheat;
+    color: rgb(155, 106, 16);
 }

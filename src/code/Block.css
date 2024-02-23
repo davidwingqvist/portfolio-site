@@ -1,3 +1,21 @@
+@keyframes backgroundColor {
+    0%  { background-color: rgb(5, 5, 7); }
+    20% { background-color: rgb(12, 12, 17); }
+    40% { background-color: rgb(20, 20, 32); }
+    50% { background-color: rgb(24, 24, 39); }
+    60% { background-color: rgb(20, 20, 32); }
+    80% { background-color: rgb(12, 12, 17); }
+    100% { background-color: rgb(5, 5, 7); }
+}
+
+@keyframes shiftingTextColor {
+    0% {color: rgb(155, 106, 16); transform: translateX(0);}
+    25% {color: rgb(216, 161, 60); transform: translateX(-1%); filter: blur(0.5px);}
+    50% {color: rgb(247, 181, 57); transform: translateX(0%); filter: blur(1.5px);}
+    75% {color: rgb(216, 161, 60); transform: translateX(1%); filter: blur(0.5px);}
+    100% {color: rgb(155, 106, 16); transform: translateX(0);}
+}
+
 .HomePage {
     place-items: center;
     align-content: center;
@@ -8,24 +26,31 @@
     overflow-y: hidden;
 }
 
+.ShiftColorText {
+    color: rgb(155, 106, 16);
+    animation: shiftingTextColor 9s infinite linear;
+}
+
 .Block {
     place-items: center;
     display: grid;
     width: 100dvw;
     height: 95dvh;
     overflow: hidden;
+    animation: backgroundColor 9s infinite linear;
     background-color: rgb(26, 26, 36);
 }
 
 
 .Main {
-    color: wheat;
+    color: rgb(155, 106, 16);
 }
 
 .AnimatedMainText {
-    color: wheat;
+    color: rgb(155, 106, 16);
     text-align: center;
     user-select: none;
+    text-shadow: 5px 5px rgb(13, 13, 18);
 }
 
 /* Bottom part of the main page */
