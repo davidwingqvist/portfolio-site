@@ -10,9 +10,9 @@
 
 @keyframes shiftingTextColor {
     0% {color: rgb(155, 106, 16); transform: translateX(0);}
-    25% {color: rgb(216, 161, 60); transform: translateX(-1%); filter: blur(0.5px);}
+    25% {color: rgb(216, 161, 60); transform: translateX(-1%) rotateZ(9deg); filter: blur(0.5px);}
     50% {color: rgb(247, 181, 57); transform: translateX(0%); filter: blur(1.5px);}
-    75% {color: rgb(216, 161, 60); transform: translateX(1%); filter: blur(0.5px);}
+    75% {color: rgb(216, 161, 60); transform: translateX(1%) rotateZ(-9deg); filter: blur(0.5px);}
     100% {color: rgb(155, 106, 16); transform: translateX(0);}
 }
 
@@ -28,6 +28,8 @@
 
 .ShiftColorText {
     color: rgb(155, 106, 16);
+    margin-bottom: 3dvh;
+    margin-top: 3dvh;
     animation: shiftingTextColor 9s infinite linear;
 }
 

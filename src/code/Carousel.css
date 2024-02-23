@@ -11,6 +11,24 @@
     user-select: none;
 }
 
+@keyframes glowEffect {
+    0% {color: rgb(125, 86, 12);}
+    50% {color: rgb(255, 198, 93);}
+    100% {color: rgb(125, 86, 12);}
+}
+
+@keyframes movingRight {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(5dvw);}
+    100% {transform: translateX(0);}
+}
+
+@keyframes movingLeft {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(-5dvw);}
+    100% {transform: translateX(0);}
+}
+
 .CarouselArrowRight {
     position: relative;
     display: inline-block;
@@ -19,10 +37,12 @@
     user-select: none;
     text-shadow: 2dvw 2dvh  rgb(13, 13, 18);
     top: 15dvh;
+    animation: movingRight 5s infinite linear;
 }
 
 .CarouselArrowRight:hover {
     color: rgb(208, 162, 64);
+    animation: glowEffect 3s infinite linear;
 }
 
 .CarouselArrowRight:active {
@@ -38,10 +58,12 @@
     user-select: none;
     text-shadow: 2dvw 2dvh  rgb(13, 13, 18);
     top: 15dvh;
+    animation: movingLeft 5s infinite linear;
 }
 
 .CarouselArrowLeft:hover {
     color: rgb(208, 162, 64);
+    animation: glowEffect 3s infinite linear;
 }
 
 .CarouselArrowLeft:active {
@@ -69,10 +91,19 @@
     box-shadow: 3dvw 3dvh  rgb(13, 13, 18);
     user-select: none;
     background-color: black;
+    border-color: black;
+}
+
+@keyframes blinkingImage {
+    0% {filter:brightness(1); box-shadow: 3dvw 3dvh  rgb(13, 13, 18);}
+    25% {filter:brightness(0.75); transform: rotateY(10deg); box-shadow: 3dvw 1dvh  rgb(13, 13, 18);}
+    50% {filter:brightness(0.50); box-shadow: 3dvw 3dvh  rgb(13, 13, 18);}
+    75% {filter:brightness(0.75); transform: rotateY(-10deg); box-shadow: 3dvw 2dvh  rgb(13, 13, 18)}
+    100% {filter:brightness(1); box-shadow: 3dvw 3dvh  rgb(13, 13, 18);}
 }
 
 .CarouselPicture:hover {
-    filter:brightness(0.55);
+    animation: blinkingImage 2s infinite linear;
 }
 
 .CarouselPicture:active {

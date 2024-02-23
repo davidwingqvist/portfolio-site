@@ -70,3 +70,20 @@
     background-color: rgb(26, 26, 36);
     color: rgb(155, 106, 16);
 }
+
+@keyframes movingBackground {
+    to {
+        background-position: var(--bg-size) 0;
+    }
+}
+
+.FancyText {
+    --bg-size: 250%;
+    background: linear-gradient(90deg, rgb(246, 160, 0), rgb(152, 105, 17), rgb(246, 160, 0)) 0 0/var(--bg-size) 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 1.6rem;
+    animation: movingBackground 3s infinite linear;
+    text-shadow: none;
+    border-color: black;
+}
