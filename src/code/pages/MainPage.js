@@ -8,8 +8,6 @@ import {
     Link,
 } from "react-router-dom";
 
-import Carousel from '../Carousel'
-
 function MainPage ()
 {
     const mainAnim = useSpring({

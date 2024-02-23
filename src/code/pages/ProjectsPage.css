@@ -19,6 +19,17 @@
     user-select: none;
 }
 
+.SecondaryText {
+    margin-top: 10dvh;
+    user-select: none;
+}
+
+.ThirdText {
+    margin-top: 35dvh;
+    user-select: none;
+    text-align: center;
+}
+
 .HintDownText {
     position: absolute;
     margin-top: 20dvh;
@@ -32,7 +43,7 @@
 
 .ShowCaseImage {
     width: 80dvh;
-    height: 60dvh;
+    height: 50dvh;
 }
 
 .ProjectsBlock {
@@ -44,5 +55,4 @@
     overflow: hidden;
     background-color: rgb(26, 26, 36);
     color: wheat;
-    text-align: center;
 }
