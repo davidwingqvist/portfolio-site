@@ -6,18 +6,15 @@ export default function Contact()
         <div className="MainPage">
             <div className='InfoBlock'>
                 <h className='InfoHeader'>
-                    Contact/
+                    Contact
                     連絡
                 </h>
-                <button className='InfoText'>
-                    Email/メール
-                </button>
-                <button className='InfoText'>
+                <text className='InfoText'> Email: dw123gorde@gmail.com</text>
+                <a href='https://www.linkedin.com/in/david-wingqvist-228742271/' target='_blank' rel='noreferrer' className='InfoButton'>
+                <div>
                     LinkedIn
-                </button>
-                <button className='InfoText'>
-                    Github
-                </button>
+                </div>
+                </a>
             </div>
         </div>
     );

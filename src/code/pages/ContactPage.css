@@ -23,7 +23,6 @@
     top: 10dvh;
     background-color: rgb(26, 26, 36);
     border-radius: 5dvw;
-    user-select: none;
 }
 
 @media (width > 1000px)
@@ -33,14 +32,39 @@
         text-align: center;
         position: relative;
         font-size: 5rem;
+        user-select: none;
+    }
+
+    .InfoButton {
+        color: wheat;
+        text-align: center;
+        position: relative;
+        font-size: 3.5rem;
+        display: grid;
+        align-items: center;
+        background-color: rgb(71, 61, 15);
+        border-radius: 50dvw;
+        box-shadow: 0 0.7dvh rgb(47, 40, 10);
+        margin-bottom: 2dvh;
+        text-decoration: none;
+        user-select: none;
+    }
+
+    .InfoButton:hover {
+        background-color: rgb(59, 50, 12);
+    }
+
+    
+    .InfoButton:active {
+        transform: translate3d(0, 0.5dvh, 0);
+        box-shadow: 0 0.2dvh rgb(47, 40, 10);
     }
 
     .InfoText {
         color: wheat;
         text-align: center;
         position: relative;
-        font-size: 3.5rem;
-        background-color: black;
+        font-size: 3rem;
     }
 }
 @media (width <= 1000px)
@@ -49,14 +73,38 @@
         color: wheat;
         text-align: center;
         position: relative;
-        font-size: 2.3rem;
+        font-size: 3.9rem;
+        user-select: none;
+    }
+
+    .InfoButton {
+        color: wheat;
+        text-align: center;
+        position: relative;
+        display: grid;
+        align-items: center;
+        font-size: 2rem;
+        background-color: rgb(71, 61, 15);
+        border-radius: 50dvw;
+        box-shadow: 0 0.7dvh rgb(47, 40, 10);
+        margin-bottom: 1dvh;
+        user-select: none;
+        text-decoration: none;
+    }
+
+    .InfoButton:hover {
+        background-color: rgb(59, 50, 12);
+    }
+
+    .InfoButton:active {
+        transform: translate3d(0, 0.5dvh, 0);
+        box-shadow: 0.2dvw 0.2dvh rgb(47, 40, 10);
     }
 
     .InfoText {
         color: wheat;
         text-align: center;
         position: relative;
-        font-size: 1.5rem;
-        background-color: black;
+        font-size: 1.2rem;
     }
 }
