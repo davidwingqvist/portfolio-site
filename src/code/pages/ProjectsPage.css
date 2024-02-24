@@ -87,3 +87,23 @@
     text-shadow: none;
     border-color: black;
 }
+
+.BottomBar {
+    display: flex;
+    place-content: center;
+    place-items: center;
+    background-color: black;
+    width: 100dvw;
+    height: 25dvh;
+}
+
+.BottomBarLogo {
+    width: 15dvh;
+    height: 15dvh;
+    margin-left: 5dvw;
+    margin-right: 5dvw;
+}
+
+.BottomBarLogo:hover {
+    filter: brightness(0.5);
+}

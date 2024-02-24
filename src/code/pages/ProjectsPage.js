@@ -11,6 +11,8 @@ import unityShot from '../../textures/unityProjectScreenshot.png'
 import portfolioShot from '../../textures/portfolio-site.PNG'
 import fourInARowShot from '../../textures/four_in_a_row.PNG'
 import Carousel, { CarouselSlide } from '../Carousel'
+import githubLogo from '../../textures/github_logo.png'
+import linkedInLogo from '../../textures/linkedIn_logo.png'
 
 
 function ProjectsPage() 
@@ -82,6 +84,10 @@ function ProjectsPage()
                         <h2 className='FancyText'>データ指向型RECSデータ管理システム</h2>
                     </CarouselSlide>
                 </Carousel>
+            </div>
+            <div className='BottomBar'>
+                    <a href='https://www.linkedin.com/in/david-wingqvist-228742271/' target='_blank' rel='noreferrer'><img src={githubLogo} className='BottomBarLogo'></img></a>
+                    <a href='https://github.com/davidwingqvist' target='_blank' rel='noreferrer'><img src={linkedInLogo} className='BottomBarLogo'></img></a>
             </div>
         </div>
     );

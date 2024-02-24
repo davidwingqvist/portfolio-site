@@ -1,0 +1,62 @@
+@keyframes movingBackground {
+    to {
+        background-position: var(--bg-size) 0;
+    }
+}
+
+
+.MainPage {
+    display: block;
+    width: 100dvw;
+    height: 95dvh;
+    --bg-size: 300%;
+    background: linear-gradient(90deg, rgb(195, 134, 22), rgb(155, 107, 18), rgb(195, 134, 22)) 0 0/var(--bg-size) 100%;
+    animation: movingBackground 10s infinite linear;
+}
+
+.InfoBlock {
+    position: absolute;
+    width: 50dvw;
+    display: grid;
+    height: 85dvh;
+    left: 25dvw;
+    top: 10dvh;
+    background-color: rgb(26, 26, 36);
+    border-radius: 5dvw;
+    user-select: none;
+}
+
+@media (width > 1000px)
+{
+    .InfoHeader {
+        color: wheat;
+        text-align: center;
+        position: relative;
+        font-size: 5rem;
+    }
+
+    .InfoText {
+        color: wheat;
+        text-align: center;
+        position: relative;
+        font-size: 3.5rem;
+        background-color: black;
+    }
+}
+@media (width <= 1000px)
+{
+    .InfoHeader {
+        color: wheat;
+        text-align: center;
+        position: relative;
+        font-size: 2.3rem;
+    }
+
+    .InfoText {
+        color: wheat;
+        text-align: center;
+        position: relative;
+        font-size: 1.5rem;
+        background-color: black;
+    }
+}
