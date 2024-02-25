@@ -86,8 +86,8 @@ function ProjectsPage()
                 </Carousel>
             </div>
             <div className='BottomBar'>
-                    <a href='https://www.linkedin.com/in/david-wingqvist-228742271/' target='_blank' rel='noreferrer'><img src={githubLogo} className='BottomBarLogo'></img></a>
-                    <a href='https://github.com/davidwingqvist' target='_blank' rel='noreferrer'><img src={linkedInLogo} className='BottomBarLogo'></img></a>
+                    <a href='https://www.linkedin.com/in/david-wingqvist-228742271/' target='_blank' rel='noreferrer'><img src={linkedInLogo} className='BottomBarLogo'></img></a>
+                    <a href='https://github.com/davidwingqvist' target='_blank' rel='noreferrer'><img src={githubLogo} className='BottomBarLogo'></img></a>
             </div>
         </div>
     );
