@@ -13,13 +13,15 @@ import fourInARowShot from '../../textures/four_in_a_row.PNG'
 import Carousel, { CarouselSlide } from '../Carousel'
 import githubLogo from '../../textures/github_logo.png'
 import linkedInLogo from '../../textures/linkedIn_logo.png'
+import blackjackShot from '../../textures/blackjack_game.PNG'
 
 
 function ProjectsPage() 
 {
     // preloadings the images?
     const images = [homehearthScreenShot, prodigiumScreenShot, budgetIsaacScreenShot, mortemScreenShot,
-        wildPixelsScreenShot, engineScreenShot, recsScreenShot, dentakuShot, unityShot, portfolioShot, fourInARowShot];
+        wildPixelsScreenShot, engineScreenShot, recsScreenShot, dentakuShot, unityShot, portfolioShot, fourInARowShot,
+        blackjackShot];
 
     return (
         <div className='ProjectsPage'>
@@ -58,6 +60,10 @@ function ProjectsPage()
             <div className='ProjectsBlock'>
                 <h1 className='SecondaryText'>WEB[HTML, CSS, ReactJS(JavaScript)]</h1>
                 <Carousel>
+                    <CarouselSlide>
+                        <a href='https://davidwingqvist.github.io/blackjack-on-the-web/' target='_blank' rel='noreferrer'><img src={images[11]} className='CarouselPicture'></img></a>
+                        <h2 className='FancyText'>ブラックジャックゲーム</h2>
+                    </CarouselSlide>
                     <CarouselSlide>
                         <a href='https://davidwingqvist.github.io/Calculator-Website/' target='_blank' rel='noreferrer'><img src={images[7]} className='CarouselPicture'></img></a>
                         <h2 className='FancyText'>電卓サイト/Calculator Website</h2>
