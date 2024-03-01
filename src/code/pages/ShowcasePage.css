@@ -1,0 +1,41 @@
+
+.MainBlock {
+    position: absolute;
+    width: 100dvw;
+    height: 95dvh;
+    background-color: rgb(26, 26, 36);
+}
+
+.MainTextShowCase {
+    color: rgb(155, 106, 16);
+    font-size: 1.7rem;
+    display: flex;
+    margin-left: 12.5dvw;
+    margin-top: 12.5dvh;
+    place-content: center;
+    text-align: center;
+    text-shadow: 0.5dvw 0.5dvh black;
+    user-select: none;
+    font-weight: bold;
+    width: 75dvw;
+}
+
+@keyframes moveArrow {
+    0% {transform: translateY(0%);}
+    50% {transform: translateY(45%);}
+    100% {transform: translateY(0%);}
+}
+
+.PointingArrow {
+    color: rgb(155, 106, 16);
+    font-size: 10rem;
+    display: flex;
+    position: absolute;
+    width: 100dvw;
+    height: 25dvh;
+    top: 60dvh;
+    place-content: center;
+    text-align: center;
+    user-select: none;
+    animation: moveArrow 5s infinite linear;
+}
