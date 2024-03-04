@@ -6,6 +6,22 @@
     background-color: rgb(26, 26, 36);
 }
 
+.FollowUpBlock {
+    position: relative;
+    top: 95dvh;
+    width: 100dvw;
+}
+
+.PageBlock {
+    position: relative;
+    top: 95dvh;
+    width: 100dvw;
+    height: 100dvh;
+    color: rgb(155, 106, 16);
+    text-shadow: 0.5dvw 0.5dvh black;
+    background-color: rgb(26, 26, 36);
+}
+
 .MainTextShowCase {
     color: rgb(155, 106, 16);
     font-size: 1.7rem;

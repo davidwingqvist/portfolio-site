@@ -1,19 +1,37 @@
 import './ShowcasePage.css'
+import React, {Children} from 'react'
+
+function PageBlock(props)
+{
+
+
+    return (
+            <div className='PageBlock'>
+                {props.children}
+            </div>
+    )
+}
 
 export default function Showcase()
 {
 
 
     return (
+        <>
             <div className='MainBlock'>
                 <text className='MainTextShowCase'>
-                    こちらのページはショーケースが行っています。
-                    短時間で概要をご覧になりたい方にお勧めします。
-                    それでは時間を使わず、下にスクロールしてください。
+                    こちらのページはプロジェクトのショーケースが見られます。
+                    下へスクロールし、次々にプロジェクトの説明や、担当した部分などが
+                    現れます。
                 </text>
 
                 <text className='PointingArrow'>↓</text>
 
+
             </div>
+            <div className='FollowUpBlock'></div>
+            <PageBlock>
+            </PageBlock>
+        </>
            )
 }
