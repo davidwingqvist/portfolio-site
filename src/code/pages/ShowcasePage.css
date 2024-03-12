@@ -14,12 +14,33 @@
 
 .PageBlock {
     position: relative;
+    display: flex;
+    flex-direction: column;
     top: 95dvh;
     width: 100dvw;
     height: 100dvh;
     color: rgb(155, 106, 16);
     text-shadow: 0.5dvw 0.5dvh black;
     background-color: rgb(26, 26, 36);
+}
+
+.CodingExperienceBlock {
+    width: 100dvw;
+    display: flex;
+    text-align: center;
+    place-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.vertText {
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+}
+
+.centerText {
+    text-align: center;
+    width: 60dvw;
+    margin-left: 20dvw;
 }
 
 .MainTextShowCase {

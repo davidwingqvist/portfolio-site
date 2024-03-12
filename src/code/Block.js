@@ -19,7 +19,7 @@ const Navi = () => {
             <ul className='NavBar'>
                 <li className='NavItem'><Link to='/portfolio-site/'>Home</Link></li>
                 <li className='NavItem'><Link to='/portfolio-site/Projects'>Projects</Link></li>
-                <li className='NavItem'><Link to='/portfolio-site/Showcase'>Showcase</Link></li>
+                <li className='NavItem'><Link to='/portfolio-site/About'>About</Link></li>
                 <li className='NavItem'><Link to='/portfolio-site/Contact'>Contact</Link></li>
                 <text className='NavText'>David Wingqvist</text>
             </ul>
@@ -35,7 +35,7 @@ function Block()
                 <Route path="/portfolio-site/" element={<MainPage />}></Route>
                 <Route path="/portfolio-site/Projects" element={<ProjectsPage />}/>
                 <Route path="/portfolio-site/Contact" element={<ContactPage />}/>
-                <Route path="/portfolio-site/Showcase" element={<ShowcasePage/>}/>
+                <Route path="/portfolio-site/About" element={<ShowcasePage/>}/>
                 <Route
                         path="*"
                         element={<Navigate to="/portfolio-site/" replace={true} />}
