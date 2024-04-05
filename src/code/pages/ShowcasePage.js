@@ -22,7 +22,7 @@ export default function Showcase()
                 <text className='MainTextShowCase'>
                     こちらのページはプロジェクトのショーケースが見られます。
                     下へスクロールし、次々にプロジェクトの説明や、担当した部分などが
-                    現れます。
+                    現れます。 ---WIP---
                 </text>
 
                 <text className='PointingArrow'>↓</text>
