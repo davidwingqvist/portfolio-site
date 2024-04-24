@@ -4,6 +4,7 @@ import React from 'react'
 import {useSpring, animated} from 'react-spring'
 import githubLogo from '../../textures/github_logo.png'
 import linkedInLogo from '../../textures/linkedIn_logo.png'
+import youtubeLogo from '../../textures/youtube_logo.jpg'
 import {
     Link,
 } from "react-router-dom";
@@ -74,6 +75,7 @@ function MainPage ()
         <animated.div style={logoBlockAnim} className={'logoImageBlock'}>
             <a href='https://www.linkedin.com/in/david-wingqvist-228742271/' target='_blank' rel='noreferrer'><img src={linkedInLogo} className='logoImage'></img></a>
             <a href='https://github.com/davidwingqvist' target='_blank' rel='noreferrer'><img src={githubLogo} className='logoImage'></img></a>
+            <a href='https://www.youtube.com/@davidw9321/videos' target='_blank' rel='noreferrer'><img src={youtubeLogo} className='logoImage'></img></a>
         </animated.div>
     </table>
     </div>

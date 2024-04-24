@@ -13,6 +13,7 @@ import fourInARowShot from '../../textures/four_in_a_row.PNG'
 import Carousel, { CarouselSlide } from '../Carousel'
 import githubLogo from '../../textures/github_logo.png'
 import linkedInLogo from '../../textures/linkedIn_logo.png'
+import youtubeLogo from '../../textures/youtube_logo.jpg'
 import blackjackShot from '../../textures/blackjack_game.PNG'
 
 
@@ -94,6 +95,7 @@ function ProjectsPage()
             <div className='BottomBar'>
                     <a href='https://www.linkedin.com/in/david-wingqvist-228742271/' target='_blank' rel='noreferrer'><img src={linkedInLogo} className='BottomBarLogo'></img></a>
                     <a href='https://github.com/davidwingqvist' target='_blank' rel='noreferrer'><img src={githubLogo} className='BottomBarLogo'></img></a>
+                    <a href='https://www.youtube.com/@davidw9321/videos' target='_blank' rel='noreferrer'><img src={youtubeLogo} className='BottomBarLogo'></img></a>
             </div>
         </div>
     );
