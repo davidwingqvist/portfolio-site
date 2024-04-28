@@ -89,7 +89,7 @@ export default function Showcase()
                     </ul>
                     <h4 className='vertText'>現在勉強中</h4>
                     <ul>
-                        <li>SQL</li>
+                        <li>SQL/PHP</li>
                         <li>ReactJS / TypeScript</li>
                     </ul>
                 </div>
