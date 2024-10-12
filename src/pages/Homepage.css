@@ -1,0 +1,26 @@
+.main-body {
+    height: 100dvh;
+    width: 100dvw;
+    background-color: rgb(26, 26, 36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes movingBackground {
+    to {
+        background-position: var(--bg-size) 0;
+    }
+}
+
+.under-construction-text {
+    --bg-size: 250%;
+    text-align: center;
+    color: rgb(155, 106, 16);
+    background: linear-gradient(90deg, rgb(246, 160, 0), rgb(152, 105, 17), rgb(246, 160, 0)) 0 0/var(--bg-size) 100%;
+    animation: movingBackground 3s infinite linear;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 12em;
+    user-select: none;
+}
