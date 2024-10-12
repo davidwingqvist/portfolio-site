@@ -1,11 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import HomePage from './pages/Homepage';
+import TopBarComponent from './components/TopBarComponent';
 
 function App() {
   return (
     <div className="App">
+      <TopBarComponent/>
       <HomePage/>
     </div>
   );

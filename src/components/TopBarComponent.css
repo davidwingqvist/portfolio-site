@@ -1,0 +1,26 @@
+
+.top-body {
+    background-color: rgb(26, 26, 36);
+    width: 100dvw;
+    height: 10dvh;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    z-index: 1000;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.top-body::before {
+    --corner-size: 30dvh;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    border-radius: 0 0 var(--corner-size) var(--corner-size);
+    z-index: -1;
+}
