@@ -17,7 +17,7 @@
 
     color: rgb(155, 106, 16);
 
-    font-size: 1rem;
+    font-size: clamp(0.1rem, 1dvw, 1rem);
     font-weight: bold;
 
     border-radius: 15dvh;

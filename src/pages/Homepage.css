@@ -23,6 +23,6 @@
     animation: movingBackground 3s infinite linear;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    font-size: 12em;
+    font-size: 12rem;
     user-select: none;
 }
