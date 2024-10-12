@@ -1,4 +1,4 @@
-import ButtonComponent from './ButtonComponent';
+import NavBarButtonComponent from './NavBarButtonComponent';
 import './TopBarComponent.css'
 
 /*
@@ -7,11 +7,11 @@ import './TopBarComponent.css'
 function TopBarComponent ()
 {
     return (<div className="top-body">
-        <ButtonComponent text="HOME"/>
-        <ButtonComponent text="PROJECTS"/>
-        <ButtonComponent text="WORK"/>
-        <ButtonComponent text="ABOUT ME"/>
-        <ButtonComponent text="CONTACT"/>
+        <NavBarButtonComponent text="HOME" link="home"/>
+        <NavBarButtonComponent text="PROJECTS" link="projects"/>
+        <NavBarButtonComponent text="WORK" link="work"/>
+        <NavBarButtonComponent text="ABOUT ME" link="aboutme"/>
+        <NavBarButtonComponent text="CONTACT" link="contact"/>
     </div>)
 }
 
