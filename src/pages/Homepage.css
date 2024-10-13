@@ -26,3 +26,13 @@
     font-size: 12rem;
     user-select: none;
 }
+
+.column-body {
+    display: flex;
+    flex-direction: row; /* Change from column to row */
+    justify-content: center;
+    align-items: flex-start; /* Align items at the top */
+    margin-left: 5dvw;
+    margin-right: 5dvw;
+    gap: 10dvw;
+}

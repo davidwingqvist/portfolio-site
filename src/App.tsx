@@ -15,7 +15,7 @@ function App() {
       <Router>
         <TopBarComponent/>
         <Routes>
-          <Route path="/" element={<HomePage/>} /> {/*Start Page.*/}
+          <Route path="/portfolio-site" element={<HomePage/>} /> {/*Start Page.*/}
           <Route path="/home" element={<HomePage/>} />
           <Route path="/projects" element={<ProjectsPage/>} />
           <Route path="/work" element={<WorkPage/>} />
