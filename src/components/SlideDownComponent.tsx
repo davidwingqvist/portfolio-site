@@ -31,6 +31,7 @@ const SlideDownComponent: React.FC<SlideDownProps> = ({ text, delay, texture }) 
             src={texture}
             alt="Masked"
             className="slide-masked-image"
+            draggable="false"
         />
          <div className="slide-centered-text">{text}</div>
     </animated.div>);

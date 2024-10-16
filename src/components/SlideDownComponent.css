@@ -2,6 +2,7 @@
     width: 15dvw;
     height: 75dvh;
     background-color: black;
+    outline: 5px solid black;
 
     position: relative;
     display: flex;
@@ -20,6 +21,7 @@
     height: 100%;
     object-fit: cover;
     mask-size: cover;
+    user-select: none;
     mask-repeat: no-repeat;
 }
 

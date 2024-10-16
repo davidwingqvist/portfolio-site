@@ -1,12 +1,12 @@
-import "./Homepage.css"
+import WorkBranchComponent from "../components/WorkBranchComponent";
+import "./WorkPage.css"
 
 function WorkPage()
 {
-    return (<div className="main-body">
-        <div className="under-construction-text">
-        構築中
-        </div>
-    </div>);
+    return (<div className="work-main">
+                <div className="work-circle">現在</div>
+                <WorkBranchComponent />
+            </div>);
 }
 
 export default WorkPage;

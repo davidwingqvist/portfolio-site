@@ -1,0 +1,89 @@
+
+.work-main {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: rgb(26, 26, 36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-circle {
+    width: 7dvw;
+    height: 7dvw;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+
+    outline: 0.5dvw solid rgb(155, 106, 16);
+
+    text-align: center;
+    color: rgb(155, 106, 16);
+
+    font-weight: bold;
+
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none;
+}
+
+.work-align {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.work-rectangle {
+    width: 2.5dvw;
+    height: 30dvh;
+    background-color: black;
+    position: relative;
+    top: -25px;
+    z-index: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: rgb(155, 106, 16);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+
+    outline: 0.5dvw solid rgb(155, 106, 16);
+    border-radius: 5%;
+
+    user-select: none;
+}
+
+.work-inner-rectangle {
+    right: 5dvw;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+    writing-mode:horizontal-tb;
+    text-orientation: upright;
+
+    color: rgb(155, 106, 16);
+
+    font-weight: bold;
+
+    text-shadow: 
+    -1px -1px 0px black,
+    1px -1px 0px black,
+    -1px 1px 0px black,
+    1px 1px 0px black;
+
+    background-color: black;
+    background-clip: text;
+    padding: 2px;
+}
